@@ -3,13 +3,11 @@ from setuptools import setup
 setup(
     name="maketxt",
     version="1.0.0",
-    # Use py_modules for single-file scripts
-    py_modules=["maketxt"],
+    py_modules=["maketxt"],  # Looks for maketxt.py
     include_package_data=True,
     entry_points={
         "console_scripts": [
-            # format: 'command=module:function'
-            "maketxt=maketxt:main",
+            "maketxt=maketxt:main", # Command=Module:Function
         ],
     },
     python_requires=">=3.10",
