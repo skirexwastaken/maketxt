@@ -1,4 +1,4 @@
-pkgname=makeTXT
+pkgname=maketxt
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="makeTXT is a simple CLI tool that creates .txt files."
